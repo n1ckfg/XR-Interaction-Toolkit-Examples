@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.htc.upm.vive.openxr": "1.0.10",
     "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.7.0.tgz",
     "com.unity.ext.nunit": "1.0.6",
     "com.unity.ide.rider": "3.0.18",
@@ -48,5 +49,14 @@
   "testables": [
     "com.unity.inputsystem",
     "com.unity.xr.interaction.toolkit"
+  ],
+  "scopedRegistries": [
+    {
+      "name": "VIVE",
+      "url": "https://npm-registry.vive.com",
+      "scopes": [
+        "com.htc.upm"
+      ]
+    }
   ]
 }
